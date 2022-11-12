@@ -19,7 +19,7 @@ require_once 'template/header.php';
 <div class="box">
 <section class="content-header">
 <ol class="breadcrumb">
-<li><a href="/index.php"><i class="fa
+<li><a href="/bd.php"><i class="fa
 fa-dashboard"></i> Главная</a></li>
 
 <li><a href="list-teacher-schedule.php">Расписание</a></li>

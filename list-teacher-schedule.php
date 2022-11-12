@@ -21,7 +21,7 @@ $teachers = (new LessonPlanMap())->findTeachers($page*$size-$size, $size);
 <section class="content-header">
 <h1><?=$header;?></h1>
 <ol class="breadcrumb">
-<li><a href="/index.php"><i class="fafa-dashboard"></i> Главная</a></li>
+<li><a href="/bd.php"><i class="fafa-dashboard"></i> Главная</a></li>
 <li class="active"><?=$header;?></li>
 </ol>
 </section>

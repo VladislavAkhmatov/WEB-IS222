@@ -3,7 +3,7 @@ require_once 'autoload.php';
 session_start();
 $message = 'Войдите для просмотра расписания занятий';
 if (isset($_SESSION['role'])) {
-header('Location: index.php');
+header('Location: bd.php');
 exit;
 } elseif (isset($_POST['login']) &&
 isset($_POST['password'])) {
@@ -16,7 +16,7 @@ $_SESSION['id'] = $user->user_id;
 $_SESSION['role'] = $user->sys_name;
 $_SESSION['roleName'] = $user->name;
 $_SESSION['fio'] = $user->fio;
-header('Location: index.php');
+header('Location: bd.php');
 exit;
 } else {
 $message = '<span style="color:red;">Некорректен
